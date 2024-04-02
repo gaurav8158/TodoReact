@@ -1,0 +1,11 @@
+.footer-body{
+    background-color: black;
+    color: rgb(148,159,187);
+    display: flex;
+    justify-content: space-between;
+padding: 1.9rem 1.2rem;
+}
+.termcondition{
+    display: flex;
+    gap:0.8rem;
+}

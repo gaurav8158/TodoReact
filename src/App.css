@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.app-logo {
+  height: 50px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-name {
+           font-size: x-large;
+  font-weight: 700;
+}
+.todo-form {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  gap:1rem;
+}
+
+.todo-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+.card-todo-part {
+  min-height: 400px;
+  height: 100%;
+  padding: 0.5rem;
+  background-color: #edebeb;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.card-todo-part-up {
+  flex: 1;
+  padding: 0.5rem;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+.card-box-all {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.task-details{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+
+.Completed {
+  font-weight: 700;
+  padding: 0.3rem;
+  border-radius: 10px;
+  background-color: rgb(34, 202, 93);
+  color: white;
+  text-align: center;
+}
+.Not-completed {
+  font-weight: 700;
+  padding: 0.3rem;
+  background-color: rgb(212, 26, 26);
+  color: rgb(254, 254, 254);
+  text-align: center;
+  border-radius: 10px;
+}
+.Pending {
+  font-weight: 700;
+  padding: 0.3rem;
+  color: black;
+  background-color: rgb(255, 171, 0);
+  text-align: center;
+  border-radius: 10px;
+}
+.delete-edit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-edit {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.select-todo-task {
+  color: red;
+  background-color: aqua;
+}
+
+.task-label {
+  font-size: large;
+  font-weight: 600;
+}
+
+.upperbox-Completed-Task {
+  font-weight: 700;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  border-top: 3px solid rgb(34, 202, 93);
+  color: rgb(34, 202, 93);
+  margin-bottom: 10px;
+}
+
+.upperbox-Pending-Task {
+  font-weight: 700;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  border-top: 3px solid rgb(255, 171, 0);
+  color: rgb(255, 171, 0);
+  margin-bottom: 10px;
+}
+
+.upperbox-InCompleted-Task {
+  font-weight: 700;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  border-top: 3px solid rgb(212, 26, 26);
+  color: rgb(212, 26, 26);
+  margin-bottom: 10px;
+}
+
+.task-date{
+  text-align: end;
+  font-size: small;
+  font-weight: 300;
+  color: gray;
+}
